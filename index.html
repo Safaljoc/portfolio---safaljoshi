@@ -13,8 +13,13 @@
 <header>
     <div class="container nav-container">
         <h1 class="logo">Safal Joshi</h1>
+        <video autoplay loop muted id="video-background">
+<source src="background1.mp4" type="video/mp4">
+</video>
         <nav>
+            <button id="menu-button" class="menu-btn">☰</button>
             <ul class="nav-links">
+              
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -130,6 +135,6 @@
 <script>
     document.getElementById('year').textContent = new Date().getFullYear();
 </script>
-
+<script src="script.js"></script>
 </body>
 </html>
